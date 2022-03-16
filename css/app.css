@@ -47,12 +47,23 @@ a{
 .translucent-form-overlay input::placeholder {
   color: #8a8a8a;
 }
-li{
-  color:black;
+.top-bar{
+background-color:  #77767c;
 }
-small{
-  color: black;
+
+.top-bar-left{
+  background-color:  #77767c;
+}
+.top-bar-right{
+  background-color:  #77767c;
 }
 .algo{
+
   color: black;
+}
+.menu{
+  background-color:  #77767c;
+}
+.translucent-form-overlay{
+  background-color: #77767c;
 }
