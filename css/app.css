@@ -67,3 +67,57 @@ background-color:  #77767c;
 .translucent-form-overlay{
   background-color: #77767c;
 }
+
+
+
+.tag-cloud-section {
+  background: #7b93a4;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tag-cloud-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #e6e6e6;
+  border-bottom: 1px solid #cacaca;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+.tag-cloud {
+  margin: 0.5rem;
+  text-align: center;
+  list-style: none;
+}
+
+.tag-cloud .tag-cloud-individual-tag {
+  display: inline-block;
+  padding: 0.33333rem 0.5rem;
+  border-radius: 0;
+  font-size: 0.8rem;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: default;
+  border-radius: 5000px;
+  background: #2c3840;
+  display: inline-block;
+  color: #e6e6e6;
+  margin: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.tag-cloud .tag-cloud-individual-tag .fa {
+  margin-left: 7px;
+  color: #e6e6e6;
+}
+
+.tag-cloud .tag-cloud-individual-tag:hover {
+  background: black;
+  transition: background-color .2s ease-in;
+}
+
+
