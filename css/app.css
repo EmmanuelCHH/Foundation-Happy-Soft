@@ -5,8 +5,24 @@
 .outside {
   padding: 0em 3em;
 }
+body{
+  background-color: #c0cfff;
+}
 
+.menu {
+  color: white;
+  background-color: #77767c;
+  
+}
 
+.callout{
+  color: white;
+  background-color: #77767c;
+  
+}
+a{
+  color: white;
+}
 
 .translucent-form-overlay {
   max-width: 500px;
