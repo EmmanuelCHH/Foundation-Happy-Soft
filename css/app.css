@@ -9,16 +9,8 @@ body{
   background-color: #c0cfff;
 }
 
-.menu {
-  color: white;
-  background-color: #77767c;
-  
-}
-
 .callout{
-  color: white;
   background-color: #77767c;
-  
 }
 a{
   color: white;
@@ -54,4 +46,13 @@ a{
 
 .translucent-form-overlay input::placeholder {
   color: #8a8a8a;
+}
+li{
+  color:black;
+}
+small{
+  color: black;
+}
+.algo{
+  color: black;
 }
