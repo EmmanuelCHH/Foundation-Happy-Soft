@@ -15,21 +15,25 @@
   <body>
     
     <!-- Start Top Bar -->
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text">Yeti Agency</li>
-        </ul>
-      </div>
-      <div class="top-bar-right">
-        <ul class="menu">
-           
-          <li><a href="#" class="algo">One</a></li>
-          <li><a href="#" class="algo">Two</a></li>
-          <li><a href="#" class="algo">Three</a></li>
-          <li><a href="#" class="algo">Four</a></li>
-       
-        </ul>
+    <div class="top-bar-container" data-sticky-container>
+      <div class="sticky sticky-topbar" data-sticky data-options="anchor: page; marginTop: 0; stickyOn: small;">
+        <div class="top-bar">
+          <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li class="menu-text">Yeti Agency</li>
+              <li><a href="#" class="algo">one</a></li>
+              <li><a href="#" class="algo">Two</a></li>
+              <li><a href="#" class="algo">Three</a></li>
+              <li><a href="#" class="algo">Four</a></li>
+            </ul>
+          </div>
+          <div class="top-bar-right">
+            <ul class="menu">
+              <li><input type="search" placeholder="Search"></li>
+              <li><button type="button" class="button">Search</button></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
     <!-- End Top Bar -->
